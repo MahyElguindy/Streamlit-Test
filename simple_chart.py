@@ -68,7 +68,7 @@ if authentication_status:
     st.markdown(new_title, unsafe_allow_html=True)
 
     # dashboard variables
-    gc_dashboard = pygsheets.authorize(service_file='./shoptalk.json')
+    gc_dashboard = pygsheets.authorize(service_file='./streamlit-testing.json')
     sh_dashboard = gc_dashboard.open('TBS-entry')  # Open GoogleSheet
     ws_dashboard = sh_dashboard.worksheet('title', 'Sheet1')
     df = ws_dashboard.get_as_df()

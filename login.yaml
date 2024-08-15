@@ -2,10 +2,13 @@ credentials:
   usernames:
     InfoTraff:
       name: Info Traff
-      password: '$2b$12$P9QXu/CJ6YI8b8/M95z0eeO1M0EibEtBjQZozSqyf2k0qegoSkX/S' # To be replaced with hashed password
+      password: '$2b$12$N06SWJegtbL5NP6hpQ0jCedw11T0xbGcvYkD7B3/SGl9grB8i.87O' # To be replaced with hashed password
     TBS:
       name: TBS
-      password: '$2b$12$ZEbtroy5mDjsrpu6Rg.b/OQ2ZrwU4IgmY5ydA8F6NJeagFutTAhEm' # To be replaced with hashed password
+      password: '$2b$12$8K9dUykwsF7w0KFu/heDwe2gscIy4wLmvF6zGyKGp3V2K3p05jiMm' # To be replaced with hashed password
+    intern:
+      name: intern
+      password: '$2b$12$nrIE7Op0BtVsjoSaIsmvPOkPM8uRq52zMbQg/yu2hSNjpbpwXD0uy' # To be replaced with hashed password
 cookie:
   expiry_days: 30
   key: "TBS_dashboard" # Must be string

@@ -69,11 +69,11 @@ if authentication_status:
 
     # dashboard variables
     gc_dashboard = pygsheets.authorize(service_file='./shoptalk.json')
-    sh_dashboard = gc_dashboard.open('TBS-2.0-dashboard')  # Open GoogleSheet
+    sh_dashboard = gc_dashboard.open('TBS-entry')  # Open GoogleSheet
     ws_dashboard = sh_dashboard.worksheet('title', 'Sheet1')
     df = ws_dashboard.get_as_df()
 
-    sh_warnings = gc_dashboard.open('TBS-2.0-Warnings')  # Open GoogleSheet
+    sh_warnings = gc_dashboard.open('TBS-warning')  # Open GoogleSheet
     ws_warnings = sh_warnings.worksheet('title', 'Sheet1')
     df_warnings = ws_warnings.get_as_df()
 

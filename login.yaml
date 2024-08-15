@@ -1,0 +1,14 @@
+credentials:
+  usernames:
+    InfoTraff:
+      name: Info Traff
+      password: '$2b$12$P9QXu/CJ6YI8b8/M95z0eeO1M0EibEtBjQZozSqyf2k0qegoSkX/S' # To be replaced with hashed password
+    TBS:
+      name: TBS
+      password: '$2b$12$ZEbtroy5mDjsrpu6Rg.b/OQ2ZrwU4IgmY5ydA8F6NJeagFutTAhEm' # To be replaced with hashed password
+cookie:
+  expiry_days: 30
+  key: "TBS_dashboard" # Must be string
+  name: "123456"
+preauthorized:
+  emails:

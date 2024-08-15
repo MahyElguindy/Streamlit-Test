@@ -1,0 +1,8 @@
+streamlit
+streamlit-authenticator==0.3.2
+streamlit_js_eval
+pandas
+numpy
+plotly
+pygsheets
+openpyxl

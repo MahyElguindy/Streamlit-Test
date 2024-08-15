@@ -1,0 +1,184 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+@import url('https://fonts.cdnfonts.com/css/rubik');
+[data-testid="stAppViewContainer"] > .main, [data-testid="stHeader"] {
+background-color: #F2F3F5;
+}
+[data-testid="stSidebar"], [data-testid="stSidebarContent"] {
+    background-color: #b3b3b3;
+}
+* {
+    font-family: Rubik;
+}
+
+iframe {
+    display:none;
+}
+
+.block-container {
+    padding-top:3rem;
+    padding-bottom:3rem;
+}
+
+.stPlotlyChart {
+outline: 10px solid #FFFFFF;
+border-radius: 10px;
+}
+
+.container {
+outline: 10px solid #FFFFFF;
+background-color: #FFFFFF;
+border-radius: 10px;
+padding: 5px;
+}
+.container > p {
+    font-size: 25px;
+    font-weight:bold;
+    margin-bottom:1%;
+}
+
+.containerData {
+    display: flex;
+}
+.containerData *{
+    margin:1%;
+}
+
+.boxData {
+outline: 2px solid #61BB6D;
+border-radius: 10px;
+padding: 5px;
+margin: 1%;
+width: 50%;
+}
+.boxData p {
+font-size: 18px;
+}
+.firstP{
+    float: left;
+}
+.secondP{
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.heatmapP{
+    font-size: 25px;
+    font-weight:bold;
+}
+
+.warning-parent {
+display:flex;
+flex-wrap:wrap;
+flex-direction: row;
+text-align: center;
+margin-bottom:5%;
+}
+.warning {
+border-radius: 8px;
+margin: 3% 3% 0 0;
+width: 300px;
+outline: 10px solid #FFFFFF;
+background-color: #FFFFFF;
+}
+.warning * {
+margin:0;
+}
+
+.first{
+color:#999999;
+}
+
+.second{
+    font-size: 20px;
+}
+
+.third {
+    font-size:15px;
+    font-weight:bold;
+}
+
+.third span {
+    font-weight: normal;
+}
+
+[data-testid="StyledLinkIconContainer"] > span{
+padding:0;
+padding-top: 2%;
+margin-left:calc(2rem);
+}
+h1 {
+margin:0;
+padding:0;
+}
+
+[data-testid="stSelectbox"] > label {
+border-radius: 8px;
+outline: 5px solid #61BB6D;
+background-color: #61BB6D;
+font-weight:bold;
+font-size:large;
+margin-bottom: 2%;
+}
+
+[data-testid="stDateInput"]  p {
+font-weight:bold;
+font-size:large;
+}
+
+[data-testid="stDateInput"] > div {
+border-radius: 8px;
+outline: 2px solid #999999;
+margin-bottom: 0%;
+}
+
+@media  (max-width: 800px) {
+.block-container {
+    padding-top:0rem;
+    padding-bottom:3rem;
+}
+
+.warning-parent {
+flex-direction: column;
+}
+.warning {
+margin: 3% 0 0 0;
+margin-bottom: 5%;
+width:auto;
+}
+
+[data-testid="stExpander"] {
+/* padding:0; */
+margin-bottom: 1%;
+/* background-color: #61BB6D; */
+}
+[data-testid="stExpander"] * {
+    border: none;
+}
+
+
+[data-testid="StyledLinkIconContainer"] > span{
+padding:0;
+padding-top: 3%;
+margin-left:calc(3rem);
+}
+
+
+
+[data-testid="stDateInput"] > div {
+margin-bottom: 1%;
+}
+
+.firstP{
+    font-size: 15px !important;
+}
+.secondP{
+    font-size: 15px !important;
+    font-weight: bold;
+}
+
+.third span {
+    font-weight: normal;
+}
+
+}
